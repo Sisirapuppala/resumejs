@@ -1,4 +1,4 @@
-var formattedName = HTMLheaderName.replace("%data%", "Rishi Makan");
+var formattedName = HTMLheaderName.replace("%data%", "Sisira Puppala");
 $("#header").append(formattedName);
 
 var work = {
@@ -25,15 +25,15 @@ var projects = {
 };
 
 var bio = {
-  name: "Rishi Makan",
-  role: "Front End Developer",
+  name: "Sisira Puppala",
+  role: "Web Developer",
   welcomeMessage: "Hi welcome to my page :)",
   contacts: {
     mobile: "250-516-8993",
-    email: "rmakan@gmail.com",
-    github: "https://github.com/rmakan",
-    twitter: "dkkkd",
-    location: "ddskdksd",
+    email: "sisirapuppala@gmail.com",
+    github: "https://github.com/sisirapuppala",
+    twitter: "sisirapuppala",
+    location: "Andhra Pradesh",
   },
   skills: ["HTML5", "CSS", "Javascript", "JQuesry"],
 };
@@ -44,23 +44,23 @@ var eduaction = {
       name: "vsvdcd",
       location: "sdsd",
       degree: "dsddd",
-      majors: ["Mech Engg", "Mechatronics"],
+      majors: ["Cs Engg", "Gvpcew"],
       dates: "sdsdds",
       url: "dsdsdsd",
     },
   ],
   onlineCourse: [
     {
-      title: "Front End Nanodegree",
-      school: "Udacity",
+      title: "Html",
+      school: "Udemy",
       dates: "2016",
-      url: "https://www.udacity.com/",
+      url: "https://www.udemy.com/",
     },
     {
       title: "Front End Developer",
-      school: "FreeCodeCamp",
+      school: "Pluralsight",
       dates: "2016",
-      url: "https://www.freecodecamp.com/",
+      url: "https://www.pluralsight.com/",
     },
   ],
 };
@@ -68,10 +68,6 @@ var eduaction = {
 /*
 
 This file contains all of the code running in the background that makes resumeBuilder.js possible. We call these helper functions because they support your code in this course.
-
-Don't worry, you'll learn what's going on in this file throughout the course. You won't need to make any changes to it until you start experimenting with inserting a Google Map in Problem Set 3.
-
-Cameron Pittman
 */
 
 /*
